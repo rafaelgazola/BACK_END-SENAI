@@ -7,11 +7,12 @@
 </head>
 <body>
     <<?php 
-    include 'header.php';
+    require_once 'header.php';
     ?>
     <section>
         hjhubhyugbhugbhyubh Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, beatae harum. Ad eum impedit officiis autem a, quidem, ipsam ullam minima sequi, possimus cupiditate. Dignissimos minima illo consequatur officia tenetur?
     <section>
+        <a href="pag2.php">Acesse a pagina 2</a>
     <?php include 'footer.php';?>
 </body>
 </html>
