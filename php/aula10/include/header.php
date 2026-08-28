@@ -1,4 +1,4 @@
-<footer>
-    <h1>Este é o footer</h1>
+<header>
+    <h1>Este é o header</h1>
     <hr>
-</footer>
+</header>
