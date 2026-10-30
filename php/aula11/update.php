@@ -1,15 +1,14 @@
-<?php
+<?php 
+require_once 'conect.php';
 
-require_once 'connect.php';
+$n_nome = 'grogorio';
+$id = 5;
 
-$sql = "DELETE FROM alunos WHERE id = :id";
-$id=7;
-try{
-    $stmt = $conexao->prepare($sql);
-    $stmt->bindParam(":id",$id);
-    $stmt->execute();
-    echo "Usuário $id removido com sucesso!";
-}catch (PDOException $e){
-    echo "Erro: ". $e->getMessage();
-}
+
+$sql = "UPDATE alunos SET nome = :nome WHERE id = :id";
+
+$stmt = $conexao->prepare($sql);
+$stmt->bindParam(":nome",$n_nome);
+$stmt->bindParam(":id", $id);
+$stmt->execute();
 ?>
