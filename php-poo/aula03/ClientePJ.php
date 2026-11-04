@@ -13,6 +13,6 @@ class ClientePJ extends Cliente{
         return "Nomes: {$this->nome}\n Email: {$this->email}\nCNPJ: {$this->cnpj}";
     }
 }
-$cnpj = new ClientePJ("gazola","gazola@gmail.com", "123.123.123-22");
+$cnpj = new ClientePJ("jorge","jorge@gorge", "123123123-123-2");
 echo $cnpj->getDados();
 ?>
