@@ -1,0 +1,14 @@
+{
+    "name":"projeto/sistema-chmados",
+    "description":"Sistema De Chamados com PSR-4 Autoloading",
+    "type":"project",
+    "autoload":{
+        "psr-4":{
+        "App\\":"app/",
+        "Config\\":"config/"
+    }
+},
+    "require":{
+        "php": ">8.1"
+    }
+}
